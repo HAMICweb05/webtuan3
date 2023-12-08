@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main {
+
+    html {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#bar {}
+
+#bar li {
+    display: inline-block;
+}
+
+#bar li a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+
+#bar li a:hover {
+    background-color: blueviolet;
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 40%;
+    background: url('/assets/img/anh1.jpeg') top center/ cover no-repeat;
+}
+
+#slider logocontent {
+    position: absolute;
+    margin-bottom: 50px;
+}
+#content .tilte{
+    text-align: justify;
+    
+}
+#content .title .aboutcontext{
+    background-color: aqua;
+    font-size: 20px;
+}
+#content .aboutcontext2{
+    background-color: greenyellow;
+    color: black;
+    font-size: 20px;
+    font-style: inherit;
+    font-weight: 300;
+}
